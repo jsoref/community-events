@@ -70,3 +70,5 @@ jobs:
           echo github.token: ${{github.token}};
           echo github.workflow: ${{github.workflow}};
           echo github.workspace: ${{github.workspace}};
+    - name: debug
+      uses: jsoref/community-events-action@main
