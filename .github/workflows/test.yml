@@ -71,4 +71,4 @@ jobs:
           echo github.workflow: ${{github.workflow}};
           echo github.workspace: ${{github.workspace}};
     - name: debug
-      uses: jsoref/community-events-action@main
+      uses: jsoref/community-events-action@a/b/c/d
